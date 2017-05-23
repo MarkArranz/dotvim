@@ -20,6 +20,11 @@ syntax on
 " runtime files in their own private directories.
 execute pathogen#infect()
 
+" Use system clipboard (using 'y' is the same as Ctrl+C)
+" Windows
+set clipboard=unnamed
+" LInux
+" set clipboard=unnamedplus
 
 " KEY MAPPING
 " -------------------------------------------------------------------------
